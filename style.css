@@ -73,7 +73,13 @@ body {
 .createAccountSection {
     background: lightgray;
     margin-left: -22px;
+    padding: 10px;
     
+}
+
+.createAccountBtn {
+    background: lightcoral;
+    border-radius: 2em;
 }
 
 .input {
@@ -81,6 +87,10 @@ body {
     flex-flow: column wrap;
     width: 40%;
     padding: 10px;
+}
+
+.input:focus-within {
+    color: red;
 }
 
 .fieldSection span {
